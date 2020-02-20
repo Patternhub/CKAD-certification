@@ -12,3 +12,14 @@ https://medium.com/bb-tutorials-and-thoughts/how-to-get-started-with-kubernetes-
 # IMP links
 
 https://www.contino.io/insights/the-ultimate-guide-to-passing-the-cka-exam
+
+
+
+# CheatCode
+  # Get logs for pod
+  kubectl logs -f <POD NAME> -n <knative-serving>
+
+    
+
+  # Get events for pod
+    kubectl get event --field-selector involvedObject.name=<POD NAME>
